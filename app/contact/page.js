@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+// import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Get from "../../public/get.png";
 
 const Contact = () => {
