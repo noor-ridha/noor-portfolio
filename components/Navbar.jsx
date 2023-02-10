@@ -52,19 +52,16 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#skills">Skills</Link>
+              <Link href="/skills">Skills</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+              <Link href="/projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -79,7 +76,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {/* Overlay */}
+
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
@@ -127,11 +124,6 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Projects
-                </li>
-              </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
                 </li>
               </Link>
               <Link href="/#contact">
